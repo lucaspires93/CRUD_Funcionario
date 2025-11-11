@@ -31,7 +31,6 @@ Este projeto solidificou as seguintes habilidades de Engenharia de Software:
 
 1.  **Arquitetura em Camadas (Service Layer):** Implementação de uma clara separação de responsabilidades entre Controller (interface), Service (regras de negócio) e Repository (acesso a dados).
 2.  **Desenvolvimento RESTful:** Criação de endpoints que aderem aos princípios REST, utilizando verbos HTTP (POST, PUT, DELETE) e Status Codes apropriados (200 OK, **404 Not Found**).
-3.  **Tratamento de Exceções Profissional:** Implementação de exceções customizadas (`ResourceNotFoundException`) e um `Global Exception Handler` para retornar códigos de erro HTTP semânticos.
-4.  **Persistência com JPA:** Utilização eficiente de anotações JPA/Hibernate para ORM e operações CRUD através do Spring Data.
-5.  **Padrões de Código:** Uso do padrão Builder e lógica de atualização **Fetch-and-Modify** no service layer para manipular entidades de forma transacional.
-6.  **Teste de APIs:** Validação e garantia de funcionalidade de todos os endpoints utilizando o **Postman**.
+3.  **Persistência com JPA:** Utilização eficiente de anotações JPA/Hibernate para ORM e operações CRUD através do Spring Data.
+4.  **Padrões de Código:** Uso do padrão Builder e lógica de atualização **Fetch-and-Modify** no service layer para manipular entidades de forma transacional.
+5.  **Teste de APIs:** Validação e garantia de funcionalidade de todos os endpoints utilizando o **Postman**.
